@@ -1,0 +1,8 @@
+*
+!.gitignore
+!Tema1/
+!Tema1/streamlit_chatbot.py
+
+venv/
+__pycache__/
+*.pyc
