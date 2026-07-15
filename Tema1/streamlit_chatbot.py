@@ -60,7 +60,6 @@ for msg in st.session_state.mensajes:
         st.markdown(msg.content)
 
 if st.button("🗑️ Nueva conversación"):
-    # ¿Qué necesitas limpiar?
     st.session_state.mensajes = []
     st.rerun()  # Esto refresca la página y reinicia la conversación
 
